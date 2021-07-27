@@ -119,6 +119,8 @@ S 6000 2700 1000 550
 U 60FDBB90
 F0 "H-Bridge" 50
 F1 "H-Bridge.sch" 50
+F2 "PWM" I L 6000 2950 50 
+F3 "V_OUT1" O R 7000 2950 50 
 $EndSheet
 $Comp
 L Mechanical:MountingHole H?
@@ -186,4 +188,10 @@ Text Notes 700  700  0    50   ~ 0
 Star Grounding
 Text Notes 1850 700  0    50   ~ 0
 M3 Mounting Holes
+Wire Wire Line
+	7625 2650 7475 2650
+Wire Wire Line
+	7475 2650 7475 2950
+Wire Wire Line
+	7475 2950 7000 2950
 $EndSCHEMATC
