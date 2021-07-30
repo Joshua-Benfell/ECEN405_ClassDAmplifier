@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -17,6 +17,8 @@ $Comp
 L Device:L_Small L?
 U 1 1 60FD558D
 P 5250 2900
+AR Path="/60F78807/60FD558D" Ref="L?"  Part="1" 
+AR Path="/610505A7/60FD558D" Ref="L?"  Part="1" 
 F 0 "L?" V 5435 2900 50  0000 C CNN
 F 1 "L_Small" V 5344 2900 50  0000 C CNN
 F 2 "" H 5250 2900 50  0001 C CNN
@@ -28,6 +30,8 @@ $Comp
 L Device:C_Small C?
 U 1 1 60FD5F2D
 P 5450 3100
+AR Path="/60F78807/60FD5F2D" Ref="C?"  Part="1" 
+AR Path="/610505A7/60FD5F2D" Ref="C?"  Part="1" 
 F 0 "C?" H 5542 3146 50  0000 L CNN
 F 1 "C_Small" H 5542 3055 50  0000 L CNN
 F 2 "" H 5450 3100 50  0001 C CNN
@@ -43,6 +47,8 @@ $Comp
 L power:GNDPWR #PWR?
 U 1 1 60FD65BB
 P 5450 3350
+AR Path="/60F78807/60FD65BB" Ref="#PWR?"  Part="1" 
+AR Path="/610505A7/60FD65BB" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5450 3150 50  0001 C CNN
 F 1 "GNDPWR" H 5454 3196 50  0000 C CNN
 F 2 "" H 5450 3300 50  0001 C CNN
