@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name 2EDL8024G)(type Legacy)(uri /home/joshua/University/ECEN405_ClassDAmplifier/Kicad/Lib/2EDL8024G/2EDL8024G.lib)(options "")(descr ""))
-  (lib (name 2ED21834S)(type Legacy)(uri /home/joshua/University/ECEN405_ClassDAmplifier/Kicad/Lib/2ED21834S/2ED21834S.lib)(options "")(descr ""))
+  (lib (name DClassAmplifier-cache)(type Legacy)(uri ${KIPRJMOD}/DClassAmplifier-cache.lib)(options "")(descr ""))
+  (lib (name 2ED21834S)(type Legacy)(uri C:/Users/smtag/OneDrive/Documents/GitHub/ECEN405_ClassDAmplifier/Kicad/Lib/2ED21834S/2ED21834S.lib)(options "")(descr ""))
+  (lib (name 2EDL8024G)(type Legacy)(uri C:/Users/smtag/OneDrive/Documents/GitHub/ECEN405_ClassDAmplifier/Kicad/Lib/2EDL8024G/2EDL8024G.lib)(options "")(descr ""))
+  (lib (name 2021-08-03_22-32-07)(type Legacy)(uri C:/Users/smtag/OneDrive/Documents/GitHub/ECEN405_ClassDAmplifier/Kicad/Lib/2021-08-03_22-32-07/2021-08-03_22-32-07.lib)(options "")(descr ""))
 )

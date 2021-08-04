@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -74,7 +74,7 @@ F 3 "~" H 9540 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 6300 1900 900  250 
+S 6000 1850 900  250 
 U 60FDBAA4
 F0 "Feedback" 50
 F1 "Feedback.sch" 50
@@ -246,4 +246,19 @@ Wire Wire Line
 	8775 3250 8775 2950
 Wire Wire Line
 	8775 3350 8775 3700
+$Sheet
+S 2550 2800 1000 300 
+U 6109BB03
+F0 "TriangleWave" 50
+F1 "TriangleWave.sch" 50
+F2 "TRIANGLE_OUT" O R 3550 2950 50 
+$EndSheet
+$Sheet
+S 2550 3600 950  300 
+U 610C616D
+F0 "SignalBias" 50
+F1 "SignalBias.sch" 50
+F2 "SIG_OUT" O R 3500 3750 50 
+F3 "AUDIO_IN" I L 2550 3750 50 
+$EndSheet
 $EndSCHEMATC
