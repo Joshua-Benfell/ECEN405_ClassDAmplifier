@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DGD05463FN-7
+D DiodesZetex DGD05463FN-7 Dual Half Bridge MOSFET Power Driver, 1.5 (Source) A, 2.5 (Sink) A 10-Pin, W-DFN3030
+K
+F https://www.diodes.com/assets/Datasheets/DGD05463.pdf
+$ENDCMP
+#
+#End Doc Library
