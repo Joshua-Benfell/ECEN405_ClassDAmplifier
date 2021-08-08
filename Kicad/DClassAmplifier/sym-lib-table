@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name DClassAmplifier-rescue)(type Legacy)(uri ${KIPRJMOD}/DClassAmplifier-rescue.lib)(options "")(descr ""))
+  (lib (name DGD05463FN-7)(type Legacy)(uri C:/Users/smtag/OneDrive/Documents/GitHub/ECEN405_ClassDAmplifier/Kicad/Lib/DGD05463/DGD05463FN-7.lib)(options "")(descr ""))
+  (lib (name MAX4016ESA)(type Legacy)(uri C:/Users/smtag/OneDrive/Documents/GitHub/ECEN405_ClassDAmplifier/Kicad/Lib/MAX4016ESA/MAX4016ESA.lib)(options "")(descr ""))
 )

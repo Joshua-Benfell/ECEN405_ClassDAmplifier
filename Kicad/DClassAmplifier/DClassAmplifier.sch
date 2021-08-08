@@ -24,10 +24,10 @@ F4 "SPEAKER+" O R 8550 3250 50
 F5 "SPEAKER-" O R 8550 3350 50 
 $EndSheet
 $Comp
-L power:GNDPWR #PWR?
+L power:GNDPWR #PWR0101
 U 1 1 60FD17D7
 P 1350 1050
-F 0 "#PWR?" H 1350 850 50  0001 C CNN
+F 0 "#PWR0101" H 1350 850 50  0001 C CNN
 F 1 "GNDPWR" H 1354 896 50  0000 C CNN
 F 2 "" H 1350 1000 50  0001 C CNN
 F 3 "" H 1350 1000 50  0001 C CNN
@@ -35,10 +35,10 @@ F 3 "" H 1350 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 60FD1A94
 P 1050 1050
-F 0 "#PWR?" H 1050 800 50  0001 C CNN
+F 0 "#PWR0102" H 1050 800 50  0001 C CNN
 F 1 "GND" H 1055 877 50  0000 C CNN
 F 2 "" H 1050 1050 50  0001 C CNN
 F 3 "" H 1050 1050 50  0001 C CNN
@@ -46,10 +46,10 @@ F 3 "" H 1050 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Net-Tie_2 NT?
+L Device:Net-Tie_2 NT1
 U 1 1 60FD21E0
 P 1200 950
-F 0 "NT?" H 1200 1131 50  0000 C CNN
+F 0 "NT1" H 1200 1131 50  0000 C CNN
 F 1 "Net-Tie_2" H 1200 1040 50  0000 C CNN
 F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 1200 950 50  0001 C CNN
 F 3 "~" H 1200 950 50  0001 C CNN
@@ -65,10 +65,10 @@ Wire Wire Line
 Wire Wire Line
 	1350 950  1350 1050
 $Comp
-L Device:Speaker LS?
+L Device:Speaker LS1
 U 1 1 60FD7EA0
 P 8850 3250
-F 0 "LS?" H 9020 3246 50  0000 L CNN
+F 0 "LS1" H 9020 3246 50  0000 L CNN
 F 1 "Speaker" H 9020 3155 50  0000 L CNN
 F 2 "" H 8850 3050 50  0001 C CNN
 F 3 "~" H 8840 3200 50  0001 C CNN
@@ -76,10 +76,10 @@ F 3 "~" H 8840 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 60FDDA7B
 P 2100 900
-F 0 "H?" H 2200 991 50  0000 L CNN
+F 0 "H1" H 2200 991 50  0000 L CNN
 F 1 "MountingHole" H 2200 900 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 2100 900 50  0001 C CNN
 F 3 "~" H 2100 900 50  0001 C CNN
@@ -89,10 +89,10 @@ F 5 "M3" H 2200 809 50  0000 L CNN "ScrewSize"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 60FDF5F8
 P 2100 1150
-F 0 "H?" H 2200 1241 50  0000 L CNN
+F 0 "H2" H 2200 1241 50  0000 L CNN
 F 1 "MountingHole" H 2200 1150 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 2100 1150 50  0001 C CNN
 F 3 "~" H 2100 1150 50  0001 C CNN
@@ -102,10 +102,10 @@ F 5 "M3" H 2200 1059 50  0000 L CNN "ScrewSize"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 60FDFD61
 P 2800 900
-F 0 "H?" H 2900 991 50  0000 L CNN
+F 0 "H3" H 2900 991 50  0000 L CNN
 F 1 "MountingHole" H 2900 900 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 2800 900 50  0001 C CNN
 F 3 "~" H 2800 900 50  0001 C CNN
@@ -115,10 +115,10 @@ F 5 "M3" H 2900 809 50  0000 L CNN "ScrewSize"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 60FDFFD3
 P 2800 1150
-F 0 "H?" H 2900 1241 50  0000 L CNN
+F 0 "H4" H 2900 1241 50  0000 L CNN
 F 1 "MountingHole" H 2900 1150 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 2800 1150 50  0001 C CNN
 F 3 "~" H 2800 1150 50  0001 C CNN
@@ -142,10 +142,10 @@ Star Grounding
 Text Notes 1850 700  0    50   ~ 0
 M3 Mounting Holes
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR0103
 U 1 1 6101A943
 P 8825 1825
-F 0 "#PWR?" H 8825 1675 50  0001 C CNN
+F 0 "#PWR0103" H 8825 1675 50  0001 C CNN
 F 1 "VDD" H 8840 1998 50  0000 C CNN
 F 2 "" H 8825 1825 50  0001 C CNN
 F 3 "" H 8825 1825 50  0001 C CNN
@@ -153,10 +153,10 @@ F 3 "" H 8825 1825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR?
+L power:GNDPWR #PWR0104
 U 1 1 6101A949
 P 8825 2225
-F 0 "#PWR?" H 8825 2025 50  0001 C CNN
+F 0 "#PWR0104" H 8825 2025 50  0001 C CNN
 F 1 "GNDPWR" H 8829 2071 50  0000 C CNN
 F 2 "" H 8825 2175 50  0001 C CNN
 F 3 "" H 8825 2175 50  0001 C CNN
@@ -255,7 +255,8 @@ P 8825 2025
 AR Path="/60FDBB90/61206AE9" Ref="C?"  Part="1" 
 AR Path="/610505AB/61206AE9" Ref="C?"  Part="1" 
 AR Path="/6110CB49/61206AE9" Ref="C?"  Part="1" 
-F 0 "C?" H 8917 2071 50  0000 L CNN
+AR Path="/61206AE9" Ref="C2"  Part="1" 
+F 0 "C2" H 8917 2071 50  0000 L CNN
 F 1 "10u 50V" H 8917 1980 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 8825 2025 50  0001 C CNN
 F 3 "~" H 8825 2025 50  0001 C CNN
