@@ -65,17 +65,6 @@ Wire Wire Line
 Wire Wire Line
 	1350 950  1350 1050
 $Comp
-L Device:Speaker LS1
-U 1 1 60FD7EA0
-P 8850 3250
-F 0 "LS1" H 9020 3246 50  0000 L CNN
-F 1 "Speaker" H 9020 3155 50  0000 L CNN
-F 2 "" H 8850 3050 50  0001 C CNN
-F 3 "~" H 8840 3200 50  0001 C CNN
-	1    8850 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H1
 U 1 1 60FDDA7B
 P 2100 900

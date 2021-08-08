@@ -1,2 +1,9 @@
 (fp_lib_table
+  (lib (name footprints)(type KiCad)(uri C:/Users/smtag/OneDrive/Documents/GitHub/ECEN405_ClassDAmplifier/Kicad/Lib/2021-08-03_22-32-07/footprints.pretty)(options "")(descr ""))
+  (lib (name 2ED21834S)(type KiCad)(uri C:/Users/smtag/OneDrive/Documents/GitHub/ECEN405_ClassDAmplifier/Kicad/Lib/2ED21834S/2ED21834S.pretty)(options "")(descr ""))
+  (lib (name AD8567ARUZ)(type KiCad)(uri C:/Users/smtag/OneDrive/Documents/GitHub/ECEN405_ClassDAmplifier/Kicad/Lib/AD8567ARUZ/AD8567ARUZ.pretty)(options "")(descr ""))
+  (lib (name DGD05463)(type KiCad)(uri C:/Users/smtag/OneDrive/Documents/GitHub/ECEN405_ClassDAmplifier/Kicad/Lib/DGD05463/DGD05463.pretty)(options "")(descr ""))
+  (lib (name MAX4016ESA)(type KiCad)(uri C:/Users/smtag/OneDrive/Documents/GitHub/ECEN405_ClassDAmplifier/Kicad/Lib/MAX4016ESA/MAX4016ESA.pretty)(options "")(descr ""))
+  (lib (name OutputFilmCapacitor)(type KiCad)(uri C:/Users/smtag/OneDrive/Documents/GitHub/ECEN405_ClassDAmplifier/Kicad/Lib/OutputFilmCapacitor.pretty)(options "")(descr ""))
+  (lib (name 1422455C)(type KiCad)(uri C:/Users/smtag/OneDrive/Documents/GitHub/ECEN405_ClassDAmplifier/Kicad/Lib/OutputInductor/1422455C.pretty)(options "")(descr ""))
 )
