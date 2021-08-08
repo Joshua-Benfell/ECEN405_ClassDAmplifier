@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ U 1 1 61116116
 P 5150 2875
 F 0 "U?" H 5150 3242 50  0000 C CNN
 F 1 "LM319" H 5150 3151 50  0000 C CNN
-F 2 "" H 5150 2875 50  0001 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5150 2875 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm319-n.pdf" H 5150 2875 50  0001 C CNN
 	1    5150 2875
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 2 1 6111611C
 P 5125 3425
 F 0 "U?" H 5125 3792 50  0000 C CNN
 F 1 "LM319" H 5125 3701 50  0000 C CNN
-F 2 "" H 5125 3425 50  0001 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5125 3425 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm319-n.pdf" H 5125 3425 50  0001 C CNN
 	2    5125 3425
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 3 1 61116122
 P 5225 4500
 F 0 "U?" H 5183 4546 50  0000 L CNN
 F 1 "LM319" H 5183 4455 50  0000 L CNN
-F 2 "" H 5225 4500 50  0001 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5225 4500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm319-n.pdf" H 5225 4500 50  0001 C CNN
 	3    5225 4500
 	1    0    0    -1  
