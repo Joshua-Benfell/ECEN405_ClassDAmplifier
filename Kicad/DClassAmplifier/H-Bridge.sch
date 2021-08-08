@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -220,25 +220,6 @@ Wire Notes Line
 	2625 1275 9500 1275
 Wire Wire Line
 	4975 1775 4975 1750
-$Comp
-L DGD05463FN-7:DGD05463FN-7 IC1
-U 1 1 610F542B
-P 5000 1775
-F 0 "IC1" H 5500 2040 50  0000 C CNN
-F 1 "DGD05463FN-7" H 5500 1949 50  0000 C CNN
-F 2 "DGD05463:SON50P300X300X80-11N-D" H 5850 1875 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/DGD05463.pdf" H 5850 1775 50  0001 L CNN
-F 4 "DiodesZetex DGD05463FN-7 Dual Half Bridge MOSFET Power Driver, 1.5 (Source) A, 2.5 (Sink) A 10-Pin, W-DFN3030" H 5850 1675 50  0001 L CNN "Description"
-F 5 "0.8" H 5850 1575 50  0001 L CNN "Height"
-F 6 "Diodes Inc." H 5850 1475 50  0001 L CNN "Manufacturer_Name"
-F 7 "DGD05463FN-7" H 5850 1375 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "621-DGD05463FN-7" H 5850 1275 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DGD05463FN-7" H 5850 1175 50  0001 L CNN "Mouser Price/Stock"
-F 10 "DGD05463FN-7" H 5850 1075 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/dgd05463fn-7/diodes-incorporated" H 5850 975 50  0001 L CNN "Arrow Price/Stock"
-	1    5000 1775
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7525 3025 7525 3075
 Wire Wire Line
@@ -478,25 +459,6 @@ Wire Notes Line
 	2625 5225 9500 5225
 Wire Wire Line
 	4975 3750 4975 3725
-$Comp
-L DGD05463FN-7:DGD05463FN-7 IC2
-U 1 1 6117AF51
-P 5000 3750
-F 0 "IC2" H 5500 4015 50  0000 C CNN
-F 1 "DGD05463FN-7" H 5500 3924 50  0000 C CNN
-F 2 "DGD05463:SON50P300X300X80-11N-D" H 5850 3850 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/DGD05463.pdf" H 5850 3750 50  0001 L CNN
-F 4 "DiodesZetex DGD05463FN-7 Dual Half Bridge MOSFET Power Driver, 1.5 (Source) A, 2.5 (Sink) A 10-Pin, W-DFN3030" H 5850 3650 50  0001 L CNN "Description"
-F 5 "0.8" H 5850 3550 50  0001 L CNN "Height"
-F 6 "Diodes Inc." H 5850 3450 50  0001 L CNN "Manufacturer_Name"
-F 7 "DGD05463FN-7" H 5850 3350 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "621-DGD05463FN-7" H 5850 3250 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DGD05463FN-7" H 5850 3150 50  0001 L CNN "Mouser Price/Stock"
-F 10 "DGD05463FN-7" H 5850 3050 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/dgd05463fn-7/diodes-incorporated" H 5850 2950 50  0001 L CNN "Arrow Price/Stock"
-	1    5000 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7525 5000 7525 5050
 Wire Wire Line
@@ -719,4 +681,42 @@ Text Label 6000 1975 2    50   ~ 0
 PWM
 Text Label 6000 3950 2    50   ~ 0
 INV_PWM
+$Comp
+L DGD05463FN-7:DGD05463FN-7 IC?
+U 1 1 610FE89C
+P 5000 1775
+F 0 "IC?" H 5500 2040 50  0000 C CNN
+F 1 "DGD05463FN-7" H 5500 1949 50  0000 C CNN
+F 2 "SON50P300X300X80-11N-D" H 5850 1875 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DGD05463.pdf" H 5850 1775 50  0001 L CNN
+F 4 "DiodesZetex DGD05463FN-7 Dual Half Bridge MOSFET Power Driver, 1.5 (Source) A, 2.5 (Sink) A 10-Pin, W-DFN3030" H 5850 1675 50  0001 L CNN "Description"
+F 5 "0.8" H 5850 1575 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 5850 1475 50  0001 L CNN "Manufacturer_Name"
+F 7 "DGD05463FN-7" H 5850 1375 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "621-DGD05463FN-7" H 5850 1275 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DGD05463FN-7" H 5850 1175 50  0001 L CNN "Mouser Price/Stock"
+F 10 "DGD05463FN-7" H 5850 1075 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/dgd05463fn-7/diodes-incorporated" H 5850 975 50  0001 L CNN "Arrow Price/Stock"
+	1    5000 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGD05463FN-7:DGD05463FN-7 IC?
+U 1 1 612235BB
+P 5000 3750
+F 0 "IC?" H 5500 4015 50  0000 C CNN
+F 1 "DGD05463FN-7" H 5500 3924 50  0000 C CNN
+F 2 "SON50P300X300X80-11N-D" H 5850 3850 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DGD05463.pdf" H 5850 3750 50  0001 L CNN
+F 4 "DiodesZetex DGD05463FN-7 Dual Half Bridge MOSFET Power Driver, 1.5 (Source) A, 2.5 (Sink) A 10-Pin, W-DFN3030" H 5850 3650 50  0001 L CNN "Description"
+F 5 "0.8" H 5850 3550 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 5850 3450 50  0001 L CNN "Manufacturer_Name"
+F 7 "DGD05463FN-7" H 5850 3350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "621-DGD05463FN-7" H 5850 3250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DGD05463FN-7" H 5850 3150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "DGD05463FN-7" H 5850 3050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/dgd05463fn-7/diodes-incorporated" H 5850 2950 50  0001 L CNN "Arrow Price/Stock"
+	1    5000 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

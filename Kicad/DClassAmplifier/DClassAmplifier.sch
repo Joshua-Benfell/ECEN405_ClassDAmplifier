@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -216,38 +216,17 @@ Wire Wire Line
 Wire Wire Line
 	5400 3350 5150 3350
 Wire Wire Line
-	5150 3350 5150 3600
-Wire Wire Line
-	5150 3600 4825 3600
-Wire Wire Line
 	3800 3100 3875 3100
-$Sheet
-S 2325 3275 575  350 
-U 611D4178
-F0 "Sheet611D4177" 50
-F1 "InputStage.sch" 50
-F2 "SIG_IN" I L 2325 3450 50 
-F3 "SIG_OUT" O R 2900 3550 50 
-F4 "VREF" O R 2900 3375 50 
-$EndSheet
 $Sheet
 S 3875 3450 950  300 
 U 610C616D
 F0 "LPF" 50
 F1 "LPF.sch" 50
-F2 "SIG_OUT" O R 4825 3600 50 
-F3 "SIG_IN" I L 3875 3600 50 
+F2 "SIG_OUT" O R 4825 3675 50 
+F3 "VREF" O R 4825 3525 50 
 $EndSheet
 Wire Wire Line
-	2900 3375 3800 3375
-Wire Wire Line
 	3800 3375 3800 3100
-Wire Wire Line
-	3700 3550 2900 3550
-Wire Wire Line
-	3875 3600 3700 3600
-Wire Wire Line
-	3700 3600 3700 3550
 $Comp
 L Device:C_Small C?
 U 1 1 61206AE9
@@ -265,4 +244,14 @@ F 5 "> 20nF" H 8825 2025 50  0001 C CNN "Notes"
 	1    8825 2025
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5150 3350 5150 3675
+Wire Wire Line
+	4825 3675 5150 3675
+Wire Wire Line
+	4825 3525 4850 3525
+Wire Wire Line
+	4850 3525 4850 3375
+Wire Wire Line
+	4850 3375 3800 3375
 $EndSCHEMATC
