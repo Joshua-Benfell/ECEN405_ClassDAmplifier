@@ -30,39 +30,29 @@ Gmin = 3.11011e-007
 vernier = 0.832392
 vernier = 1
 Gmin = 4.7904e-008
-vernier = 0.5
-vernier = 0.25
-Gmin = 1.82393e-008
-vernier = 0.333333
-Gmin = 8.85359e-009
-vernier = 0.444444
-vernier = 0.592592
-Gmin = 2.70759e-009
-vernier = 0.790123
-vernier = 1
-Gmin = 4.45705e-010
-Gmin = 4.78572e-011
-Gmin = 5.13863e-012
-Gmin = 5.51756e-013
+Gmin = 5.14365e-009
+Gmin = 5.52295e-010
+Gmin = 5.93023e-011
+Gmin = 6.36753e-012
+Gmin = 6.83709e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
 
-Date: Sat Aug 07 16:47:00 2021
-Total elapsed time: 14.196 seconds.
+Date: Sun Aug 08 14:55:21 2021
+Total elapsed time: 0.095 seconds.
 
 tnom = 27
 temp = 27
-method = modified trap
-totiter = 1099012
-traniter = 1097767
-tranpoints = 500810
-accept = 338388
-rejected = 162422
-matrix size = 42
-fillins = 52
+method = trap
+totiter = 958
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 55
+fillins = 75
 solver = Normal
-Thread vector: 10.8/7.7[5] 8.9/3.2[5] 2.7/1.8[5] 0.2/0.8[1]  2592/500
-Matrix Compiler1: 4.30 KB object code size  1.1/0.6/[0.4]
-Matrix Compiler2: 4.27 KB object code size  0.6/0.7/[0.4]
+Matrix Compiler1:     353 opcodes
+Matrix Compiler2: off  [0.6]/1.0/1.0
 
