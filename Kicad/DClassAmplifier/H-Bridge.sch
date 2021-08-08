@@ -624,7 +624,7 @@ U 1 1 610FBA30
 P 1950 3200
 F 0 "J4" H 2030 3192 50  0000 L CNN
 F 1 "Conn_01x02" H 2030 3101 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1950 3200 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1950 3200 50  0001 C CNN
 F 3 "~" H 1950 3200 50  0001 C CNN
 	1    1950 3200
 	1    0    0    -1  
@@ -657,7 +657,7 @@ U 1 1 61104C28
 P 1950 2550
 F 0 "J3" H 2030 2592 50  0000 L CNN
 F 1 "Conn_01x03" H 2030 2501 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1950 2550 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 1950 2550 50  0001 C CNN
 F 3 "~" H 1950 2550 50  0001 C CNN
 	1    1950 2550
 	1    0    0    -1  

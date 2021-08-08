@@ -269,7 +269,7 @@ AR Path="/611D4178/61106B50" Ref="J?"  Part="1"
 AR Path="/610C616D/61106B50" Ref="J6"  Part="1" 
 F 0 "J6" H 1530 3942 50  0000 L CNN
 F 1 "Conn_01x02" H 1530 3851 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1450 3950 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1450 3950 50  0001 C CNN
 F 3 "~" H 1450 3950 50  0001 C CNN
 	1    1450 3950
 	1    0    0    -1  
@@ -308,7 +308,7 @@ AR Path="/611D4178/61106B62" Ref="J?"  Part="1"
 AR Path="/610C616D/61106B62" Ref="J5"  Part="1" 
 F 0 "J5" H 1530 3342 50  0000 L CNN
 F 1 "Conn_01x02" H 1530 3251 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1450 3350 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1450 3350 50  0001 C CNN
 F 3 "~" H 1450 3350 50  0001 C CNN
 	1    1450 3350
 	1    0    0    -1  
