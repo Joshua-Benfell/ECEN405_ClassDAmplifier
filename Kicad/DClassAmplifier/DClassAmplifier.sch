@@ -153,9 +153,9 @@ F 3 "" H 8825 2175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8825 2225 8825 2125
+	8825 2225 8825 2175
 Wire Wire Line
-	8825 1825 8825 1925
+	8825 1825 8825 1850
 $Sheet
 S 5400 3175 1150 225 
 U 61113C55
@@ -379,4 +379,29 @@ F 3 "" H 3825 1100 50  0001 C CNN
 	1    3825 1100
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:CP_Small C15
+U 1 1 61112A42
+P 9100 2025
+F 0 "C15" H 9188 2071 50  0000 L CNN
+F 1 "10m" H 9188 1980 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 9100 2025 50  0001 C CNN
+F 3 "~" H 9100 2025 50  0001 C CNN
+	1    9100 2025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2125 9100 2175
+Wire Wire Line
+	9100 2175 8825 2175
+Connection ~ 8825 2175
+Wire Wire Line
+	8825 2175 8825 2125
+Wire Wire Line
+	9100 1925 9100 1850
+Wire Wire Line
+	9100 1850 8825 1850
+Connection ~ 8825 1850
+Wire Wire Line
+	8825 1850 8825 1925
 $EndSCHEMATC
