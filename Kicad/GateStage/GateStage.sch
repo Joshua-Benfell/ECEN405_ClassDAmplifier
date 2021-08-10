@@ -1,0 +1,159 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3650 2650 1050 625 
+U 611385BE
+F0 "H-Bridge" 50
+F1 "H-Bridge.sch" 50
+F2 "PWM" I L 3650 2900 50 
+F3 "V_OUT+" O R 4700 2900 50 
+F4 "INV_PWM" I L 3650 3000 50 
+F5 "V_OUT-" O R 4700 3000 50 
+$EndSheet
+$Comp
+L Connector:TestPoint TP?
+U 1 1 611388D2
+P 4925 2875
+F 0 "TP?" H 4983 2993 50  0000 L CNN
+F 1 "TestPoint" H 4983 2902 50  0000 L CNN
+F 2 "" H 5125 2875 50  0001 C CNN
+F 3 "~" H 5125 2875 50  0001 C CNN
+	1    4925 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 2875 4925 2875
+Wire Wire Line
+	4700 2900 4875 2900
+Wire Wire Line
+	4875 2900 4875 2875
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61138D37
+P 4950 3025
+F 0 "TP?" H 4892 3051 50  0000 R CNN
+F 1 "TestPoint" H 4892 3142 50  0000 R CNN
+F 2 "" H 5150 3025 50  0001 C CNN
+F 3 "~" H 5150 3025 50  0001 C CNN
+	1    4950 3025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 3025 4950 3000
+Wire Wire Line
+	4950 3000 4700 3000
+$Comp
+L power:GND #PWR?
+U 1 1 6113956F
+P 4800 2050
+F 0 "#PWR?" H 4800 1800 50  0001 C CNN
+F 1 "GND" H 4805 1877 50  0000 C CNN
+F 2 "" H 4800 2050 50  0001 C CNN
+F 3 "" H 4800 2050 50  0001 C CNN
+	1    4800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 61139885
+P 5100 2075
+F 0 "#PWR?" H 5100 1875 50  0001 C CNN
+F 1 "GNDPWR" H 5104 1921 50  0000 C CNN
+F 2 "" H 5100 2025 50  0001 C CNN
+F 3 "" H 5100 2025 50  0001 C CNN
+	1    5100 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 61139F77
+P 6200 2200
+F 0 "#PWR?" H 6200 2000 50  0001 C CNN
+F 1 "GNDPWR" H 6204 2046 50  0000 C CNN
+F 2 "" H 6200 2150 50  0001 C CNN
+F 3 "" H 6200 2150 50  0001 C CNN
+	1    6200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 6113A529
+P 6225 1475
+F 0 "#PWR?" H 6225 1325 50  0001 C CNN
+F 1 "VDD" H 6240 1648 50  0000 C CNN
+F 2 "" H 6225 1475 50  0001 C CNN
+F 3 "" H 6225 1475 50  0001 C CNN
+	1    6225 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6113B0AB
+P 6200 1850
+F 0 "C?" H 6292 1896 50  0000 L CNN
+F 1 "10u 50V" H 6292 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6200 1850 50  0001 C CNN
+F 3 "~" H 6200 1850 50  0001 C CNN
+	1    6200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 6113BA92
+P 6750 1850
+F 0 "C?" H 6838 1896 50  0000 L CNN
+F 1 "10m" H 6838 1805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 6750 1850 50  0001 C CNN
+F 3 "~" H 6750 1850 50  0001 C CNN
+	1    6750 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1950 6750 2200
+Wire Wire Line
+	6750 2200 6200 2200
+Wire Wire Line
+	6200 2200 6200 1950
+Connection ~ 6200 2200
+Wire Wire Line
+	6200 1750 6200 1475
+Wire Wire Line
+	6200 1475 6225 1475
+Wire Wire Line
+	6225 1475 6750 1475
+Wire Wire Line
+	6750 1475 6750 1750
+Connection ~ 6225 1475
+$Comp
+L Device:Net-Tie_2 NT?
+U 1 1 6113D2EC
+P 4950 1925
+F 0 "NT?" H 4950 2106 50  0000 C CNN
+F 1 "Net-Tie_2" H 4950 2015 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 4950 1925 50  0001 C CNN
+F 3 "~" H 4950 1925 50  0001 C CNN
+	1    4950 1925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1925 4800 1925
+Wire Wire Line
+	4800 1925 4800 2050
+Wire Wire Line
+	5100 2075 5100 1925
+Wire Wire Line
+	5100 1925 5050 1925
+$EndSCHEMATC
