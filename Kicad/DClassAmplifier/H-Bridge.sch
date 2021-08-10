@@ -682,7 +682,7 @@ PWM
 Text Label 6000 3950 2    50   ~ 0
 INV_PWM
 $Comp
-L DGD05463FN-7:DGD05463FN-7 IC1
+L DClassAmplifier-rescue:DGD05463FN-7-DGD05463FN-7 IC1
 U 1 1 610FE89C
 P 5000 1775
 F 0 "IC1" H 5500 2040 50  0000 C CNN
@@ -701,7 +701,7 @@ F 11 "https://www.arrow.com/en/products/dgd05463fn-7/diodes-incorporated" H 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L DGD05463FN-7:DGD05463FN-7 IC2
+L DClassAmplifier-rescue:DGD05463FN-7-DGD05463FN-7 IC2
 U 1 1 612235BB
 P 5000 3750
 F 0 "IC2" H 5500 4015 50  0000 C CNN

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -121,9 +121,11 @@ $EndComp
 Text HLabel 8125 6075 2    50   Output ~ 0
 SIG_OUT
 $Comp
-L AD8567ARUZ:AD8567ARUZ U3
+L DClassAmplifier-rescue:AD8567ARUZ-AD8567ARUZ U3
 U 1 1 61100E74
 P 5625 4825
+AR Path="/61100E74" Ref="U3"  Part="1" 
+AR Path="/610C616D/61100E74" Ref="U3"  Part="1" 
 F 0 "U3" H 6425 5212 60  0000 C CNN
 F 1 "AD8567ARUZ" H 6425 5106 60  0000 C CNN
 F 2 "AD8567ARUZ:AD8567ARUZ" H 6425 5065 60  0001 C CNN
@@ -328,8 +330,6 @@ F 3 "" H 1250 3450 50  0001 C CNN
 $EndComp
 Text Label 1250 3350 2    50   ~ 0
 SIG_IN
-Text Label 4375 6000 2    50   ~ 0
-SIG_IN
 Text Label 5600 4825 0    50   ~ 0
 VREF
 Wire Wire Line
@@ -451,4 +451,8 @@ F 3 "~" H 5825 5725 50  0001 C CNN
 	1    5625 5725
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4400 6000 4375 6000
+Text HLabel 4400 6000 0    50   Input ~ 0
+SIG_IN
 $EndSCHEMATC
