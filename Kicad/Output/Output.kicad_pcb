@@ -841,7 +841,7 @@
   (gr_line (start 97 140) (end 97 60) (layer Dwgs.User) (width 0.15))
   (gr_line (start 97 102) (end 97 140) (layer Dwgs.User) (width 0.15))
   (gr_line (start 215 127) (end 89 127) (layer Dwgs.User) (width 0.15) (tstamp 61139E32))
-  (gr_line (start 208 47) (end 208 142) (layer Dwgs.User) (width 0.15) (tstamp 61139E35))
-  (gr_line (start 208 96) (end 208 47) (layer Dwgs.User) (width 0.15))
+  (gr_line (start 208 47.6) (end 208 142.6) (layer Dwgs.User) (width 0.15) (tstamp 61139E35))
+  (gr_line (start 208 96.6) (end 208 47.6) (layer Dwgs.User) (width 0.15))
 
 )
