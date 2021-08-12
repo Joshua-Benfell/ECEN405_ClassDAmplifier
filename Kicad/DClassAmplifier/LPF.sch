@@ -455,4 +455,29 @@ Wire Wire Line
 	4400 6000 4375 6000
 Text HLabel 4400 6000 0    50   Input ~ 0
 SIG_IN
+$Comp
+L Device:C_Small CF1
+U 1 1 611D4F98
+P 5400 5225
+AR Path="/610C616D/611D4F98" Ref="CF1"  Part="1" 
+AR Path="/611D4178/611D4F98" Ref="C?"  Part="1" 
+F 0 "CF1" V 5171 5225 50  0000 C CNN
+F 1 "100n" V 5262 5225 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5400 5225 50  0001 C CNN
+F 3 "~" H 5400 5225 50  0001 C CNN
+	1    5400 5225
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 5125
+$Comp
+L power:GND #PWR?
+U 1 1 611D77EB
+P 5400 5325
+F 0 "#PWR?" H 5400 5075 50  0001 C CNN
+F 1 "GND" H 5405 5152 50  0000 C CNN
+F 2 "" H 5400 5325 50  0001 C CNN
+F 3 "" H 5400 5325 50  0001 C CNN
+	1    5400 5325
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

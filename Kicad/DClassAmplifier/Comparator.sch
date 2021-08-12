@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -208,4 +208,30 @@ Text Label 6275 2875 0    50   ~ 0
 PWM_OUT
 Text Label 6275 3425 0    50   ~ 0
 INV_PWM_OUT
+$Comp
+L Device:C_Small CF?
+U 1 1 611DC342
+P 5225 4200
+AR Path="/610C616D/611DC342" Ref="CF?"  Part="1" 
+AR Path="/611D4178/611DC342" Ref="CF?"  Part="1" 
+AR Path="/61113C55/611DC342" Ref="CF3"  Part="1" 
+F 0 "CF3" V 4996 4200 50  0000 C CNN
+F 1 "100n" V 5087 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5225 4200 50  0001 C CNN
+F 3 "~" H 5225 4200 50  0001 C CNN
+	1    5225 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611DC348
+P 5325 4200
+F 0 "#PWR?" H 5325 3950 50  0001 C CNN
+F 1 "GND" H 5330 4027 50  0000 C CNN
+F 2 "" H 5325 4200 50  0001 C CNN
+F 3 "" H 5325 4200 50  0001 C CNN
+	1    5325 4200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5125 4200
 $EndSCHEMATC

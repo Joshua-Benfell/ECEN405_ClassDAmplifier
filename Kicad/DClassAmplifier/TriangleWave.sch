@@ -176,4 +176,29 @@ F 3 "" H 4100 3450 60  0000 C CNN
 	1    4100 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C_Small CF?
+U 1 1 611DAEFE
+P 6600 3450
+AR Path="/610C616D/611DAEFE" Ref="CF?"  Part="1" 
+AR Path="/611D4178/611DAEFE" Ref="CF?"  Part="1" 
+AR Path="/6109BB03/611DAEFE" Ref="CF2"  Part="1" 
+F 0 "CF2" V 6371 3450 50  0000 C CNN
+F 1 "100n" V 6462 3450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6600 3450 50  0001 C CNN
+F 3 "~" H 6600 3450 50  0001 C CNN
+	1    6600 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611DAF04
+P 6700 3450
+F 0 "#PWR?" H 6700 3200 50  0001 C CNN
+F 1 "GND" H 6705 3277 50  0000 C CNN
+F 2 "" H 6700 3450 50  0001 C CNN
+F 3 "" H 6700 3450 50  0001 C CNN
+	1    6700 3450
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
