@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Comparator:LM319 U1
+L Comparator:LM319 U5
 U 1 1 61116116
 P 5150 2875
-F 0 "U1" H 5150 3242 50  0000 C CNN
+F 0 "U5" H 5150 3242 50  0000 C CNN
 F 1 "LM319" H 5150 3151 50  0000 C CNN
 F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5150 2875 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm319-n.pdf" H 5150 2875 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm319-n.pdf" H 5150 2875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Comparator:LM319 U1
+L Comparator:LM319 U5
 U 2 1 6111611C
 P 5125 3425
-F 0 "U1" H 5125 3792 50  0000 C CNN
+F 0 "U5" H 5125 3792 50  0000 C CNN
 F 1 "LM319" H 5125 3701 50  0000 C CNN
 F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5125 3425 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm319-n.pdf" H 5125 3425 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm319-n.pdf" H 5125 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Comparator:LM319 U1
+L Comparator:LM319 U5
 U 3 1 61116122
 P 5225 4500
-F 0 "U1" H 5183 4546 50  0000 L CNN
+F 0 "U5" H 5183 4546 50  0000 L CNN
 F 1 "LM319" H 5183 4455 50  0000 L CNN
 F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5225 4500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm319-n.pdf" H 5225 4500 50  0001 C CNN
@@ -59,10 +59,10 @@ Wire Wire Line
 Wire Wire Line
 	4675 3525 4825 3525
 $Comp
-L power:GND #PWR010
+L power:GND #PWR044
 U 1 1 61116132
 P 5150 3175
-F 0 "#PWR010" H 5150 2925 50  0001 C CNN
+F 0 "#PWR044" H 5150 2925 50  0001 C CNN
 F 1 "GND" H 5155 3002 50  0000 C CNN
 F 2 "" H 5150 3175 50  0001 C CNN
 F 3 "" H 5150 3175 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "" H 5150 3175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L power:GND #PWR045
 U 1 1 61116138
 P 5125 3725
-F 0 "#PWR07" H 5125 3475 50  0001 C CNN
+F 0 "#PWR045" H 5125 3475 50  0001 C CNN
 F 1 "GND" H 5130 3552 50  0000 C CNN
 F 2 "" H 5125 3725 50  0001 C CNN
 F 3 "" H 5125 3725 50  0001 C CNN
@@ -81,10 +81,10 @@ F 3 "" H 5125 3725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L power:GND #PWR048
 U 1 1 6111613E
 P 5125 4800
-F 0 "#PWR09" H 5125 4550 50  0001 C CNN
+F 0 "#PWR048" H 5125 4550 50  0001 C CNN
 F 1 "GND" H 5130 4627 50  0000 C CNN
 F 2 "" H 5125 4800 50  0001 C CNN
 F 3 "" H 5125 4800 50  0001 C CNN
@@ -92,18 +92,16 @@ F 3 "" H 5125 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR08
+L power:VCC #PWR046
 U 1 1 61116144
 P 5125 4200
-F 0 "#PWR08" H 5125 4050 50  0001 C CNN
+F 0 "#PWR046" H 5125 4050 50  0001 C CNN
 F 1 "VCC" H 5140 4373 50  0000 C CNN
 F 2 "" H 5125 4200 50  0001 C CNN
 F 3 "" H 5125 4200 50  0001 C CNN
 	1    5125 4200
 	1    0    0    -1  
 $EndComp
-Text HLabel 7875 3075 2    50   Output ~ 0
-INV_PWM_OUT
 Text HLabel 4350 2975 0    50   Input ~ 0
 TRIANGLE_IN
 Text HLabel 4350 2775 0    50   Input ~ 0
@@ -111,10 +109,10 @@ SIG_IN
 Wire Wire Line
 	5425 3425 5825 3425
 $Comp
-L Device:R_Small R1
+L Device:R_Small R26
 U 1 1 61119BD5
 P 5825 2700
-F 0 "R1" H 5884 2746 50  0000 L CNN
+F 0 "R26" H 5884 2746 50  0000 L CNN
 F 1 "10k" H 5884 2655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5825 2700 50  0001 C CNN
 F 3 "~" H 5825 2700 50  0001 C CNN
@@ -122,10 +120,10 @@ F 3 "~" H 5825 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R2
+L Device:R_Small R27
 U 1 1 6111A188
 P 5825 3250
-F 0 "R2" H 5884 3296 50  0000 L CNN
+F 0 "R27" H 5884 3296 50  0000 L CNN
 F 1 "10k" H 5884 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5825 3250 50  0001 C CNN
 F 3 "~" H 5825 3250 50  0001 C CNN
@@ -133,10 +131,10 @@ F 3 "~" H 5825 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR011
+L power:VCC #PWR042
 U 1 1 6111A8CA
 P 5825 2500
-F 0 "#PWR011" H 5825 2350 50  0001 C CNN
+F 0 "#PWR042" H 5825 2350 50  0001 C CNN
 F 1 "VCC" H 5840 2673 50  0000 C CNN
 F 2 "" H 5825 2500 50  0001 C CNN
 F 3 "" H 5825 2500 50  0001 C CNN
@@ -144,10 +142,10 @@ F 3 "" H 5825 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR012
+L power:VCC #PWR043
 U 1 1 6111AE94
 P 5825 3100
-F 0 "#PWR012" H 5825 2950 50  0001 C CNN
+F 0 "#PWR043" H 5825 2950 50  0001 C CNN
 F 1 "VCC" H 5840 3273 50  0000 C CNN
 F 2 "" H 5825 3100 50  0001 C CNN
 F 3 "" H 5825 3100 50  0001 C CNN
@@ -173,60 +171,28 @@ Connection ~ 4675 2775
 Wire Wire Line
 	4775 2975 4350 2975
 Connection ~ 4775 2975
-$Comp
-L Connector_Generic:Conn_01x03 J2
-U 1 1 611080B2
-P 7675 3075
-F 0 "J2" H 7755 3117 50  0000 L CNN
-F 1 "Conn_01x03" H 7755 3026 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 7675 3075 50  0001 C CNN
-F 3 "~" H 7675 3075 50  0001 C CNN
-	1    7675 3075
-	-1   0    0    -1  
-$EndComp
-Text HLabel 7875 2975 2    50   Output ~ 0
-PWM_OUT
 Connection ~ 5825 2875
 Wire Wire Line
 	6275 2875 5825 2875
 $Comp
-L power:GND #PWR013
-U 1 1 6110885B
-P 7875 3175
-F 0 "#PWR013" H 7875 2925 50  0001 C CNN
-F 1 "GND" H 7880 3002 50  0000 C CNN
-F 2 "" H 7875 3175 50  0001 C CNN
-F 3 "" H 7875 3175 50  0001 C CNN
-	1    7875 3175
-	-1   0    0    -1  
-$EndComp
-Text Label 7875 2975 0    50   ~ 0
-PWM_OUT
-Text Label 7875 3075 0    50   ~ 0
-INV_PWM_OUT
-Text Label 6275 2875 0    50   ~ 0
-PWM_OUT
-Text Label 6275 3425 0    50   ~ 0
-INV_PWM_OUT
-$Comp
-L Device:C_Small CF?
+L Device:C_Small C?
 U 1 1 611DC342
 P 5225 4200
-AR Path="/610C616D/611DC342" Ref="CF?"  Part="1" 
-AR Path="/611D4178/611DC342" Ref="CF?"  Part="1" 
-AR Path="/61113C55/611DC342" Ref="CF3"  Part="1" 
-F 0 "CF3" V 4996 4200 50  0000 C CNN
+AR Path="/610C616D/611DC342" Ref="C?"  Part="1" 
+AR Path="/611D4178/611DC342" Ref="C?"  Part="1" 
+AR Path="/61113C55/611DC342" Ref="C15"  Part="1" 
+F 0 "C15" V 4996 4200 50  0000 C CNN
 F 1 "100n" V 5087 4200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5225 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5225 4200 50  0001 C CNN
 F 3 "~" H 5225 4200 50  0001 C CNN
 	1    5225 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR047
 U 1 1 611DC348
 P 5325 4200
-F 0 "#PWR?" H 5325 3950 50  0001 C CNN
+F 0 "#PWR047" H 5325 3950 50  0001 C CNN
 F 1 "GND" H 5330 4027 50  0000 C CNN
 F 2 "" H 5325 4200 50  0001 C CNN
 F 3 "" H 5325 4200 50  0001 C CNN
@@ -234,4 +200,8 @@ F 3 "" H 5325 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 5125 4200
+Text HLabel 6275 3425 2    50   Output ~ 0
+INV_PWM_OUT
+Text HLabel 6275 2875 2    50   Output ~ 0
+PWM_OUT
 $EndSCHEMATC
