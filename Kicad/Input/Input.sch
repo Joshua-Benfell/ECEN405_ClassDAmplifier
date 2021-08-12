@@ -66,56 +66,56 @@ Wire Wire Line
 Wire Wire Line
 	7350 3575 7525 3575
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP3
 U 1 1 61130EDC
 P 7525 3475
-F 0 "TP?" H 7583 3593 50  0000 L CNN
+F 0 "TP3" H 7583 3593 50  0000 L CNN
 F 1 "TestPoint" H 7583 3502 50  0000 L CNN
-F 2 "" H 7725 3475 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7725 3475 50  0001 C CNN
 F 3 "~" H 7725 3475 50  0001 C CNN
 	1    7525 3475
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP4
 U 1 1 61131319
 P 7525 3575
-F 0 "TP?" H 7467 3601 50  0000 R CNN
+F 0 "TP4" H 7467 3601 50  0000 R CNN
 F 1 "TestPoint" H 7467 3692 50  0000 R CNN
-F 2 "" H 7725 3575 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7725 3575 50  0001 C CNN
 F 3 "~" H 7725 3575 50  0001 C CNN
 	1    7525 3575
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 6113172F
 P 5975 3475
-F 0 "TP?" H 6033 3593 50  0000 L CNN
+F 0 "TP1" H 6033 3593 50  0000 L CNN
 F 1 "TestPoint" H 6033 3502 50  0000 L CNN
-F 2 "" H 6175 3475 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6175 3475 50  0001 C CNN
 F 3 "~" H 6175 3475 50  0001 C CNN
 	1    5975 3475
 	1    0    0    -1  
 $EndComp
 Connection ~ 5975 3475
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP2
 U 1 1 61131DED
 P 6025 3050
-F 0 "TP?" H 6083 3168 50  0000 L CNN
+F 0 "TP2" H 6083 3168 50  0000 L CNN
 F 1 "TestPoint" H 6083 3077 50  0000 L CNN
-F 2 "" H 6225 3050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6225 3050 50  0001 C CNN
 F 3 "~" H 6225 3050 50  0001 C CNN
 	1    6025 3050
 	1    0    0    -1  
 $EndComp
 Connection ~ 6025 3050
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 611409F9
 P 3975 1525
-F 0 "H?" H 4075 1571 50  0000 L CNN
+F 0 "H1" H 4075 1571 50  0000 L CNN
 F 1 "MountingHole" H 4075 1480 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3975 1525 50  0001 C CNN
 F 3 "~" H 3975 1525 50  0001 C CNN
@@ -123,14 +123,36 @@ F 3 "~" H 3975 1525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 61141A37
 P 3975 1725
-F 0 "H?" H 4075 1771 50  0000 L CNN
+F 0 "H2" H 4075 1771 50  0000 L CNN
 F 1 "MountingHole" H 4075 1680 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3975 1725 50  0001 C CNN
 F 3 "~" H 3975 1725 50  0001 C CNN
 	1    3975 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 611314EB
+P 5150 1525
+F 0 "H3" H 5250 1571 50  0000 L CNN
+F 1 "MountingHole" H 5250 1480 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 5150 1525 50  0001 C CNN
+F 3 "~" H 5150 1525 50  0001 C CNN
+	1    5150 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 611314F1
+P 5150 1725
+F 0 "H4" H 5250 1771 50  0000 L CNN
+F 1 "MountingHole" H 5250 1680 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 5150 1725 50  0001 C CNN
+F 3 "~" H 5150 1725 50  0001 C CNN
+	1    5150 1725
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
