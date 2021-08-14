@@ -616,16 +616,16 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 611C90F1
-P 2850 2900
+P 2850 3000
 AR Path="/611D4178/611C90F1" Ref="J?"  Part="1" 
 AR Path="/610C616D/611C90F1" Ref="J?"  Part="1" 
 AR Path="/611C90F1" Ref="J3"  Part="1" 
-F 0 "J3" H 2930 2892 50  0000 L CNN
-F 1 "Conn_01x02" H 2930 2801 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2850 2900 50  0001 C CNN
-F 3 "~" H 2850 2900 50  0001 C CNN
-	1    2850 2900
-	-1   0    0    -1  
+F 0 "J3" H 2930 2992 50  0000 L CNN
+F 1 "Conn_01x02" H 2930 2901 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2850 3000 50  0001 C CNN
+F 3 "~" H 2850 3000 50  0001 C CNN
+	1    2850 3000
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:VDD #PWR04
