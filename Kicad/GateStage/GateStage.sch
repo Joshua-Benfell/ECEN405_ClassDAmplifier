@@ -248,9 +248,6 @@ F 3 "~" H 6050 3000 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5850 3000 4950 3000
-Connection ~ 4950 3000
-Wire Wire Line
 	4700 2900 4950 2900
 Connection ~ 4950 2900
 Wire Wire Line
@@ -258,12 +255,12 @@ Wire Wire Line
 $Comp
 L power:GNDPWR #PWR0125
 U 1 1 6118C05E
-P 5850 3100
-F 0 "#PWR0125" H 5850 2900 50  0001 C CNN
-F 1 "GNDPWR" H 5854 2946 50  0000 C CNN
-F 2 "" H 5850 3050 50  0001 C CNN
-F 3 "" H 5850 3050 50  0001 C CNN
-	1    5850 3100
+P 5850 3000
+F 0 "#PWR0125" H 5850 2800 50  0001 C CNN
+F 1 "GNDPWR" H 5854 2846 50  0000 C CNN
+F 2 "" H 5850 2950 50  0001 C CNN
+F 3 "" H 5850 2950 50  0001 C CNN
+	1    5850 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -272,15 +269,15 @@ Connection ~ 6200 1475
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 611A6E70
-P 4775 1250
+P 4375 1350
 AR Path="/611385BE/611A6E70" Ref="J?"  Part="1" 
 AR Path="/611A6E70" Ref="J2"  Part="1" 
-F 0 "J2" H 4855 1242 50  0000 L CNN
-F 1 "Conn_01x02" H 4855 1151 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 4775 1250 50  0001 C CNN
-F 3 "~" H 4775 1250 50  0001 C CNN
-	1    4775 1250
-	1    0    0    -1  
+F 0 "J2" H 4455 1342 50  0000 L CNN
+F 1 "Conn_01x02" H 4455 1251 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 4375 1350 50  0001 C CNN
+F 3 "~" H 4375 1350 50  0001 C CNN
+	1    4375 1350
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:VDD #PWR?
@@ -306,4 +303,106 @@ F 3 "" H 4575 1300 50  0001 C CNN
 	1    4575 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L L78M10ABDT:L78M10ABDT U1
+U 1 1 6119BE0F
+P 1475 1350
+F 0 "U1" H 1512 1450 50  0000 C CNN
+F 1 "L78M10ABDT" H 1512 1359 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 1475 1350 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/ST%20Microelectronics%20PDFS/L78MxxAB,AC%20.pdf" H 1475 1350 50  0001 C CNN
+	1    1475 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 6119D2BB
+P 2075 1625
+F 0 "C7" H 2167 1671 50  0000 L CNN
+F 1 "100n" H 2167 1580 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2075 1625 50  0001 C CNN
+F 3 "~" H 2075 1625 50  0001 C CNN
+	1    2075 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 6119DBE1
+P 975 1650
+F 0 "C8" H 1067 1696 50  0000 L CNN
+F 1 "330n" H 1067 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 975 1650 50  0001 C CNN
+F 3 "~" H 975 1650 50  0001 C CNN
+	1    975  1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0126
+U 1 1 6119EDC1
+P 1500 1975
+F 0 "#PWR0126" H 1500 1775 50  0001 C CNN
+F 1 "GNDPWR" H 1504 1821 50  0000 C CNN
+F 2 "" H 1500 1925 50  0001 C CNN
+F 3 "" H 1500 1925 50  0001 C CNN
+	1    1500 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0127
+U 1 1 6119F95A
+P 2300 1375
+F 0 "#PWR0127" H 2300 1225 50  0001 C CNN
+F 1 "VCC" H 2315 1548 50  0000 C CNN
+F 2 "" H 2300 1375 50  0001 C CNN
+F 3 "" H 2300 1375 50  0001 C CNN
+	1    2300 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0128
+U 1 1 611A0674
+P 825 1400
+F 0 "#PWR0128" H 825 1250 50  0001 C CNN
+F 1 "VDD" H 840 1573 50  0000 C CNN
+F 2 "" H 825 1400 50  0001 C CNN
+F 3 "" H 825 1400 50  0001 C CNN
+	1    825  1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	825  1400 825  1475
+Wire Wire Line
+	825  1475 975  1475
+Wire Wire Line
+	975  1475 975  1550
+Connection ~ 975  1475
+Wire Wire Line
+	975  1475 1050 1475
+Wire Wire Line
+	975  1750 975  1975
+Wire Wire Line
+	975  1975 1500 1975
+Wire Wire Line
+	1500 1900 1500 1975
+Connection ~ 1500 1975
+Wire Wire Line
+	2075 1725 2075 1975
+Wire Wire Line
+	2075 1975 1500 1975
+Wire Wire Line
+	2075 1525 2075 1475
+Wire Wire Line
+	2075 1475 1975 1475
+Wire Wire Line
+	2075 1475 2300 1475
+Wire Wire Line
+	2300 1475 2300 1375
+Connection ~ 2075 1475
+Wire Wire Line
+	5850 3100 5200 3100
+Wire Wire Line
+	5200 3100 5200 3000
+Wire Wire Line
+	5200 3000 4950 3000
+Connection ~ 4950 3000
 $EndSCHEMATC

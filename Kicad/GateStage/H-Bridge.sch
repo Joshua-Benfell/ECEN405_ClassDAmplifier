@@ -23,24 +23,9 @@ AR Path="/6110CB49/60FF6DDC" Ref="Q?"  Part="1"
 AR Path="/611385BE/60FF6DDC" Ref="Q1"  Part="1" 
 F 0 "Q1" H 7629 2196 50  0000 L CNN
 F 1 "PHP23NQ11T,127" H 7629 2105 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7625 2250 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 7625 2250 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 7425 2150 50  0001 C CNN
 	1    7425 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GDS Q2
-U 1 1 60FF82AB
-P 7425 2825
-AR Path="/60FDBB90/60FF82AB" Ref="Q2"  Part="1" 
-AR Path="/610505AB/60FF82AB" Ref="Q?"  Part="1" 
-AR Path="/6110CB49/60FF82AB" Ref="Q?"  Part="1" 
-AR Path="/611385BE/60FF82AB" Ref="Q2"  Part="1" 
-F 0 "Q2" H 7629 2871 50  0000 L CNN
-F 1 "PHP23NQ11T,127" H 7629 2780 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7625 2925 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 7425 2825 50  0001 C CNN
-	1    7425 2825
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -294,36 +279,6 @@ Wire Wire Line
 Wire Wire Line
 	6450 2075 6000 2075
 NoConn ~ 5500 2675
-$Comp
-L Device:Q_NMOS_GDS Q3
-U 1 1 6117AEDB
-P 7425 4125
-AR Path="/60FDBB90/6117AEDB" Ref="Q3"  Part="1" 
-AR Path="/610505AB/6117AEDB" Ref="Q?"  Part="1" 
-AR Path="/6110CB49/6117AEDB" Ref="Q?"  Part="1" 
-AR Path="/611385BE/6117AEDB" Ref="Q3"  Part="1" 
-F 0 "Q3" H 7629 4171 50  0000 L CNN
-F 1 "PHP23NQ11T,127" H 7629 4080 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7625 4225 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 7425 4125 50  0001 C CNN
-	1    7425 4125
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GDS Q4
-U 1 1 6117AEE1
-P 7425 4800
-AR Path="/60FDBB90/6117AEE1" Ref="Q4"  Part="1" 
-AR Path="/610505AB/6117AEE1" Ref="Q?"  Part="1" 
-AR Path="/6110CB49/6117AEE1" Ref="Q?"  Part="1" 
-AR Path="/611385BE/6117AEE1" Ref="Q4"  Part="1" 
-F 0 "Q4" H 7629 4846 50  0000 L CNN
-F 1 "PHP23NQ11T,127" H 7629 4755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7625 4900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 7425 4800 50  0001 C CNN
-	1    7425 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7150 4800 7225 4800
 Wire Wire Line
@@ -643,10 +598,10 @@ F 3 "~" H 7050 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DGD05463FN-7:DGD05463FN-7 IC1
+L DGD05463FN-7:DGD05463FN-7 U2
 U 1 1 610FE89C
 P 5000 1775
-F 0 "IC1" H 5500 2040 50  0000 C CNN
+F 0 "U2" H 5500 2040 50  0000 C CNN
 F 1 "DGD05463FN-7" H 5500 1949 50  0000 C CNN
 F 2 "DGD05463:SON50P300X300X80-11N-D" H 5850 1875 50  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DGD05463.pdf" H 5850 1775 50  0001 L CNN
@@ -662,10 +617,10 @@ F 11 "https://www.arrow.com/en/products/dgd05463fn-7/diodes-incorporated" H 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L DGD05463FN-7:DGD05463FN-7 IC2
+L DGD05463FN-7:DGD05463FN-7 U3
 U 1 1 612235BB
 P 5000 3750
-F 0 "IC2" H 5500 4015 50  0000 C CNN
+F 0 "U3" H 5500 4015 50  0000 C CNN
 F 1 "DGD05463FN-7" H 5500 3924 50  0000 C CNN
 F 2 "DGD05463:SON50P300X300X80-11N-D" H 5850 3850 50  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DGD05463.pdf" H 5850 3750 50  0001 L CNN
@@ -684,4 +639,49 @@ Text HLabel 6000 1975 2    50   Input ~ 0
 PWM
 Text HLabel 6000 3950 2    50   Input ~ 0
 INV_PWM
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 611AD67F
+P 7425 2825
+AR Path="/60FDBB90/611AD67F" Ref="Q?"  Part="1" 
+AR Path="/610505AB/611AD67F" Ref="Q?"  Part="1" 
+AR Path="/6110CB49/611AD67F" Ref="Q?"  Part="1" 
+AR Path="/611385BE/611AD67F" Ref="Q2"  Part="1" 
+F 0 "Q2" H 7629 2871 50  0000 L CNN
+F 1 "PHP23NQ11T,127" H 7629 2780 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 7625 2925 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 7425 2825 50  0001 C CNN
+	1    7425 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 611B1FAC
+P 7425 4125
+AR Path="/60FDBB90/611B1FAC" Ref="Q?"  Part="1" 
+AR Path="/610505AB/611B1FAC" Ref="Q?"  Part="1" 
+AR Path="/6110CB49/611B1FAC" Ref="Q?"  Part="1" 
+AR Path="/611385BE/611B1FAC" Ref="Q3"  Part="1" 
+F 0 "Q3" H 7629 4171 50  0000 L CNN
+F 1 "PHP23NQ11T,127" H 7629 4080 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 7625 4225 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 7425 4125 50  0001 C CNN
+	1    7425 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 611B3B3E
+P 7425 4800
+AR Path="/60FDBB90/611B3B3E" Ref="Q?"  Part="1" 
+AR Path="/610505AB/611B3B3E" Ref="Q?"  Part="1" 
+AR Path="/6110CB49/611B3B3E" Ref="Q?"  Part="1" 
+AR Path="/611385BE/611B3B3E" Ref="Q4"  Part="1" 
+F 0 "Q4" H 7629 4846 50  0000 L CNN
+F 1 "PHP23NQ11T,127" H 7629 4755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 7625 4900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 7425 4800 50  0001 C CNN
+	1    7425 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
