@@ -121,10 +121,10 @@ Star Grounding
 Text Notes 1850 700  0    50   ~ 0
 M3 Mounting Holes
 $Comp
-L power:VDD #PWR04
+L power:VDD #PWR06
 U 1 1 6101A943
 P 8825 1825
-F 0 "#PWR04" H 8825 1675 50  0001 C CNN
+F 0 "#PWR06" H 8825 1675 50  0001 C CNN
 F 1 "VDD" H 8840 1998 50  0000 C CNN
 F 2 "" H 8825 1825 50  0001 C CNN
 F 3 "" H 8825 1825 50  0001 C CNN
@@ -132,10 +132,10 @@ F 3 "" H 8825 1825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR05
+L power:GNDPWR #PWR07
 U 1 1 6101A949
 P 8825 2225
-F 0 "#PWR05" H 8825 2025 50  0001 C CNN
+F 0 "#PWR07" H 8825 2025 50  0001 C CNN
 F 1 "GNDPWR" H 8829 2071 50  0000 C CNN
 F 2 "" H 8825 2175 50  0001 C CNN
 F 3 "" H 8825 2175 50  0001 C CNN
@@ -390,8 +390,8 @@ U 1 1 611BE002
 P 3425 3750
 AR Path="/611D4178/611BE002" Ref="#PWR?"  Part="1" 
 AR Path="/610C616D/611BE002" Ref="#PWR?"  Part="1" 
-AR Path="/611BE002" Ref="#PWR09"  Part="1" 
-F 0 "#PWR09" H 3425 3500 50  0001 C CNN
+AR Path="/611BE002" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 3425 3500 50  0001 C CNN
 F 1 "GND" H 3430 3577 50  0000 C CNN
 F 2 "" H 3425 3750 50  0001 C CNN
 F 3 "" H 3425 3750 50  0001 C CNN
@@ -401,75 +401,33 @@ $EndComp
 Text Label 3425 3650 0    50   ~ 0
 SIG_IN
 Wire Wire Line
-	3425 3650 3875 3650
+	3425 3650 3450 3650
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 611BDFFC
-P 3225 3650
+P 3225 3750
 AR Path="/611D4178/611BDFFC" Ref="J?"  Part="1" 
 AR Path="/610C616D/611BDFFC" Ref="J?"  Part="1" 
 AR Path="/611BDFFC" Ref="J5"  Part="1" 
-F 0 "J5" H 3305 3642 50  0000 L CNN
-F 1 "Conn_01x02" H 3305 3551 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3225 3650 50  0001 C CNN
-F 3 "~" H 3225 3650 50  0001 C CNN
-	1    3225 3650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 611C90F1
-P 2850 2900
-AR Path="/611D4178/611C90F1" Ref="J?"  Part="1" 
-AR Path="/610C616D/611C90F1" Ref="J?"  Part="1" 
-AR Path="/611C90F1" Ref="J3"  Part="1" 
-F 0 "J3" H 2930 2892 50  0000 L CNN
-F 1 "Conn_01x02" H 2930 2801 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2850 2900 50  0001 C CNN
-F 3 "~" H 2850 2900 50  0001 C CNN
-	1    2850 2900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 611C90F7
-P 3050 3000
-AR Path="/611D4178/611C90F7" Ref="#PWR?"  Part="1" 
-AR Path="/610C616D/611C90F7" Ref="#PWR?"  Part="1" 
-AR Path="/611C90F7" Ref="#PWR08"  Part="1" 
-F 0 "#PWR08" H 3050 2750 50  0001 C CNN
-F 1 "GND" H 3055 2827 50  0000 C CNN
-F 2 "" H 3050 3000 50  0001 C CNN
-F 3 "" H 3050 3000 50  0001 C CNN
-	1    3050 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 611C90FD
-P 3050 2900
-AR Path="/611D4178/611C90FD" Ref="#PWR?"  Part="1" 
-AR Path="/610C616D/611C90FD" Ref="#PWR?"  Part="1" 
-AR Path="/611C90FD" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 3050 2750 50  0001 C CNN
-F 1 "VCC" H 3065 3073 50  0000 C CNN
-F 2 "" H 3050 2900 50  0001 C CNN
-F 3 "" H 3050 2900 50  0001 C CNN
-	1    3050 2900
-	1    0    0    -1  
+F 0 "J5" H 3305 3742 50  0000 L CNN
+F 1 "Conn_01x02" H 3305 3651 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3225 3750 50  0001 C CNN
+F 3 "~" H 3225 3750 50  0001 C CNN
+	1    3225 3750
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 611DD567
-P 10000 2025
+P 10000 2125
 AR Path="/60FDBB90/611DD567" Ref="J?"  Part="1" 
 AR Path="/611DD567" Ref="J1"  Part="1" 
-F 0 "J1" H 10080 2017 50  0000 L CNN
-F 1 "Conn_01x02" H 10080 1926 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10000 2025 50  0001 C CNN
-F 3 "~" H 10000 2025 50  0001 C CNN
-	1    10000 2025
-	1    0    0    -1  
+F 0 "J1" H 10080 2117 50  0000 L CNN
+F 1 "Conn_01x02" H 10080 2026 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10000 2125 50  0001 C CNN
+F 3 "~" H 10000 2125 50  0001 C CNN
+	1    10000 2125
+	1    0    0    1   
 $EndComp
 Connection ~ 9100 2175
 Wire Wire Line
@@ -503,8 +461,8 @@ L power:GND #PWR?
 U 1 1 61204474
 P 6350 2425
 AR Path="/61113C55/61204474" Ref="#PWR?"  Part="1" 
-AR Path="/61204474" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 6350 2175 50  0001 C CNN
+AR Path="/61204474" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 6350 2175 50  0001 C CNN
 F 1 "GND" H 6355 2252 50  0000 C CNN
 F 2 "" H 6350 2425 50  0001 C CNN
 F 3 "" H 6350 2425 50  0001 C CNN
@@ -565,4 +523,166 @@ Connection ~ 8650 3350
 Wire Wire Line
 	8650 3250 9100 3250
 Connection ~ 8650 3250
+$Comp
+L L78M10ABDT:L78M10ABDT U1
+U 1 1 61199B5A
+P 2025 1675
+F 0 "U1" H 2062 1775 50  0000 C CNN
+F 1 "L78M10ABDT" H 2062 1684 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 2025 1675 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/ST%20Microelectronics%20PDFS/L78MxxAB,AC%20.pdf" H 2025 1675 50  0001 C CNN
+	1    2025 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 6119BEE4
+P 2675 1800
+F 0 "#PWR05" H 2675 1650 50  0001 C CNN
+F 1 "VCC" H 2690 1973 50  0000 C CNN
+F 2 "" H 2675 1800 50  0001 C CNN
+F 3 "" H 2675 1800 50  0001 C CNN
+	1    2675 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1800 1600 1800
+Wire Wire Line
+	2050 2225 2050 2275
+Wire Wire Line
+	2675 1800 2525 1800
+$Comp
+L Device:C_Small C3
+U 1 1 611A0A56
+P 1450 2075
+F 0 "C3" H 1542 2121 50  0000 L CNN
+F 1 "330n" H 1542 2030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1450 2075 50  0001 C CNN
+F 3 "~" H 1450 2075 50  0001 C CNN
+	1    1450 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 611A12BC
+P 2675 2075
+F 0 "C4" H 2767 2121 50  0000 L CNN
+F 1 "100n" H 2767 2030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2675 2075 50  0001 C CNN
+F 3 "~" H 2675 2075 50  0001 C CNN
+	1    2675 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2675 2175 2675 2275
+Connection ~ 2050 2275
+Wire Wire Line
+	1450 2175 1450 2275
+Wire Wire Line
+	1450 2275 2050 2275
+Wire Wire Line
+	1450 1800 1450 1975
+Wire Wire Line
+	2675 1800 2675 1975
+Connection ~ 2675 1800
+$Comp
+L power:VCC #PWR?
+U 1 1 611C90FD
+P 3050 2900
+AR Path="/611D4178/611C90FD" Ref="#PWR?"  Part="1" 
+AR Path="/610C616D/611C90FD" Ref="#PWR?"  Part="1" 
+AR Path="/611C90FD" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 3050 2750 50  0001 C CNN
+F 1 "VCC" H 3065 3073 50  0000 C CNN
+F 2 "" H 3050 2900 50  0001 C CNN
+F 3 "" H 3050 2900 50  0001 C CNN
+	1    3050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611C90F7
+P 3050 3000
+AR Path="/611D4178/611C90F7" Ref="#PWR?"  Part="1" 
+AR Path="/610C616D/611C90F7" Ref="#PWR?"  Part="1" 
+AR Path="/611C90F7" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 3050 2750 50  0001 C CNN
+F 1 "GND" H 3055 2827 50  0000 C CNN
+F 2 "" H 3050 3000 50  0001 C CNN
+F 3 "" H 3050 3000 50  0001 C CNN
+	1    3050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 611C90F1
+P 2850 2900
+AR Path="/611D4178/611C90F1" Ref="J?"  Part="1" 
+AR Path="/610C616D/611C90F1" Ref="J?"  Part="1" 
+AR Path="/611C90F1" Ref="J3"  Part="1" 
+F 0 "J3" H 2930 2892 50  0000 L CNN
+F 1 "Conn_01x02" H 2930 2801 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2850 2900 50  0001 C CNN
+F 3 "~" H 2850 2900 50  0001 C CNN
+	1    2850 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR04
+U 1 1 611B68B4
+P 1450 1775
+F 0 "#PWR04" H 1450 1625 50  0001 C CNN
+F 1 "VDD" H 1465 1948 50  0000 C CNN
+F 2 "" H 1450 1775 50  0001 C CNN
+F 3 "" H 1450 1775 50  0001 C CNN
+	1    1450 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1775 1450 1800
+Connection ~ 1450 1800
+Wire Wire Line
+	2050 2275 2050 2375
+$Comp
+L power:GNDPWR #PWR08
+U 1 1 611DEB9A
+P 2050 2375
+F 0 "#PWR08" H 2050 2175 50  0001 C CNN
+F 1 "GNDPWR" H 2054 2221 50  0000 C CNN
+F 2 "" H 2050 2325 50  0001 C CNN
+F 3 "" H 2050 2325 50  0001 C CNN
+	1    2050 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 6120A443
+P 2875 1800
+F 0 "TP11" H 2933 1918 50  0000 L CNN
+F 1 "TestPoint" H 2933 1827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 3075 1800 50  0001 C CNN
+F 3 "~" H 3075 1800 50  0001 C CNN
+	1    2875 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 61213C84
+P 3450 3500
+F 0 "TP12" H 3508 3618 50  0000 L CNN
+F 1 "TestPoint" H 3508 3527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 3650 3500 50  0001 C CNN
+F 3 "~" H 3650 3500 50  0001 C CNN
+	1    3450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3500 3450 3650
+Connection ~ 3450 3650
+Wire Wire Line
+	3450 3650 3875 3650
+Wire Wire Line
+	2050 2275 2675 2275
+Wire Wire Line
+	2875 1800 2675 1800
 $EndSCHEMATC
